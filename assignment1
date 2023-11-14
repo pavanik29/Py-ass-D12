@@ -1,0 +1,7 @@
+def find_minimum(arr):
+    return min(arr)
+
+# Example usage
+n = int(input())
+arr = [int(input()) for _ in range(n)]
+print(find_minimum(arr))
