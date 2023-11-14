@@ -1,0 +1,7 @@
+def find_difference(arr):
+    return max(arr) - min(arr)
+
+# Example usage
+n = int(input())
+arr = [int(input()) for _ in range(n)]
+print(f"max: {max(arr)}, min: {min(arr)}, diff={find_difference(arr)}")
