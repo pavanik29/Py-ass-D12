@@ -1,0 +1,8 @@
+def print_first_and_last(arr):
+    print(arr[0])
+    print(arr[-1])
+
+# Example usage
+n = int(input())
+arr = [int(input()) for _ in range(n)]
+print_first_and_last(arr)
